@@ -62,14 +62,20 @@
       </section>
       <div class="placesh1"><h1>Places</h1></div>
       <section class="places">
-        <!-- <h1>Places</h1> -->
-        <!-- This section is fill with jquery script all -->
-        <!-- <div>Reviews</div> -->
-        <!-- This section is fill with jquery script all -->
+        <!-- REMOVED ARTICLE TAGS -->
       </section>
     </div>
     <footer>
       <p>Holberton School</p>
     </footer>
+    <script>
+  // Adding the span element with the value "show" to the right of the H2 "Reviews"
+  document.addEventListener("DOMContentLoaded", function () {
+    const reviewsHeader = document.querySelector("h2");
+    const spanElement = document.createElement("span");
+    spanElement.textContent = "show";
+    reviewsHeader.appendChild(spanElement);
+  });
+</script>
   </body>
 </html>
